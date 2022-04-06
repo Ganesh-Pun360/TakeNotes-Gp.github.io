@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.heading{
+    background-color: rgb(226, 203, 24);
+    padding: 15px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#add{
+    
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    width:100vw;
+    color: rgb(35, 20, 199);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.note{
+    background-color: aliceblue;
+    width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 20%;
+    margin-left: 15%;
+    margin-top: 10%;
+    text-align: end;
+    border: 1px solid red;
+}
+
+.main{
+    text-align: left;
+}
+
+.edit , .delete{
+    padding: 5px;
+    border-radius: 20%;
+    font-size: 20px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none;
+}
